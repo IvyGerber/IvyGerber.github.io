@@ -31,4 +31,17 @@ body {
 	float:left;
 	width:25%;
 	border-left:1px solid #2c71b8;
+	list-style-type: none;
+}
+.menu li:last-child {
+	border-right:1px solid #2c71b8;
+}
+.menu a {
+	text-decoration:none;
+	display:block;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:21px;
+	color:#2c71b8;
 }
