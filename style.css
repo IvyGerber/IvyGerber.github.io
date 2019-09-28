@@ -27,3 +27,8 @@ body {
 [class*="col-"] {
 	float:left;
 }
+.menu li {
+	float:left;
+	width:25%;
+	border-left:1px solid #2c71b8;
+}
