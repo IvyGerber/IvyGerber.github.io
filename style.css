@@ -50,3 +50,12 @@ body {
 	background-color:#2c71b8;
 	color:white;
 }
+.search-box {
+	width:67%;
+}
+.basket {
+	width:33%;
+}
+.search div {
+	float:left;
+}
