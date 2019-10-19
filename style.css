@@ -299,4 +299,37 @@ body {
 	background-color: transparent;
 	
 }*/
-
+.item img {
+	background-color:rgba(255, 255, 255, 0.75);
+	padding:45px 80px 45px 80px;
+	border-bottom: 1px solid white;
+	text-align: center;
+	
+}
+.item {
+	display: block;
+	width:30%;
+	height:652px;
+	border:1px solid white;
+	background-color:rgba(44,113,184, 0.75);
+	/*margin:0 auto;*/
+	color:white;
+	font-size:21px;
+	font-weight:lighter;
+}
+.text {
+	padding:16px;
+}
+h1 {
+	font-size:21px;
+	font-weight:bold;
+}
+.all_items {
+	padding:60px 0 60px 0;
+}
+.item_line {
+	width:100%;
+	display:block;
+	float: left;
+	margin:0 auto;
+}
