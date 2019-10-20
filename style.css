@@ -354,7 +354,7 @@ body {
 	display: block;
 	position:absolute;
 	font-size:21px;
-	left:67%;
+	left:71%;
 	top:30%;
 }
 .more {
@@ -394,26 +394,68 @@ body {
 	width:30px;
 	height: 30px;
 	line-height: 30px;
+	padding:5px;
 	vertical-align: middle;
 	text-align: center;
-	background-image: url(photos/frame_b.png);
-	background-repeat: no-repeat;
+	
 	border:1px solid rgb(44,113,184);
 	top:5%;
 	left:85%;
+}
+.frame1 {
+	background-image: url(photos/frame_b.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+
 }
 .like {
 	display:block;
 	position:absolute;
 	width:30px;
 	height: 30px;
+	padding: 5px;
 	line-height: 30px;
 	vertical-align: middle;
 	text-align: center;
-	background-image: url(photos/like_b.png);
-	background-repeat: no-repeat;
 	border:1px solid rgb(44,113,184);
 	top:25%;
 	left:85%;
+}
+.like1 {
+	background-image: url(photos/like_b.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+.load {
+	text-align: center;
+	margin-bottom: 40px
+}
+.load a {
+	text-decoration:none;
+	color:white;
+	font-size:21px;
+}
+.footer {
+	display:block;
+	position: relative;
+	background-color:rgba(255, 255, 255, 0.75);
+	color:rgb(44,113,184);
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px;
+	font-size:16px;
+}
+.property {
+	display: block;
+	position:relative;
+	background-image: url(photos/copy.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin:0;
+	left:45%;
+	top:45%;
 
 }
