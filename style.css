@@ -265,8 +265,10 @@ body {
 .submenu_sort {
 	display:none;
 	position:absolute;
-	left:-1px;
 	width:100%;
+	/*left:-1px;
+	right:1px;*/
+	width:270px;
 }
 /*.submenu li {
 	height: 40px;
@@ -276,18 +278,21 @@ body {
 }*/
 .
 .sort_menu a {
+	display:block;
 	text-decoration: none;
 	color:white;
 	font-size:11px;
-	vertical-align: center;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	height:40px;
+
 	
 	
 }
 .sort_menu li:hover .submenu_sort {
 	display:block;
-	left:-1px;
-	width:100%;
-}
+	}
 /*.sort_menu>li:after {
 	content: url('photos/arrowd_one.png');
 	display: block;
@@ -299,37 +304,116 @@ body {
 	background-color: transparent;
 	
 }*/
-.item img {
-	background-color:rgba(255, 255, 255, 0.75);
-	padding:45px 80px 45px 80px;
-	border-bottom: 1px solid white;
-	text-align: center;
-	
-}
 .item {
-	display: block;
-	width:30%;
-	height:652px;
+	width:95%;
 	border:1px solid white;
 	background-color:rgba(44,113,184, 0.75);
-	/*margin:0 auto;*/
+	height:650px;
+}
+.image {
+	display:block;
+	position:relative;
+	background-color:rgba(255, 255, 255, 0.75);
+	padding:45px 80px 45px 80px;
+	width:100%;
+	height:180px;
+	border-bottom: 1px solid white;
+	text-align: center;
+}
+.cal-md-7 {
+	display: block;
+	width:33.3%;
+	height:652px;
+	
+	float:left;
 	color:white;
 	font-size:21px;
 	font-weight:lighter;
+	margin-bottom: 30px;
 }
 .text {
-	padding:16px;
+	padding:0 16px 0 16px;
+	height:470px;
 }
-h1 {
+.bold {
 	font-size:21px;
 	font-weight:bold;
 }
 .all_items {
-	padding:60px 0 60px 0;
+	padding:20px 0 20px 0;
 }
-.item_line {
-	width:100%;
+.price {
 	display:block;
-	float: left;
-	margin:0 auto;
+	position:relative;
+	font-size:34px;
+	text-align: center;
+	padding:25px 0 25px;
+	font-weight: bold;
+}
+.cents {
+	display: block;
+	position:absolute;
+	font-size:21px;
+	left:67%;
+	top:30%;
+}
+.more {
+	height:50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	border:1px solid white;
+	margin-bottom: 15px;
+}
+.add {
+	display:block;
+	position:relative;
+	height:50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	border:1px solid white;
+	background-color:rgba(255, 255, 255, 0.25); 
+
+}
+.basket2 {
+	display:block;
+	position:absolute;
+	background-image: url(photos/basket_w.png);
+	background-repeat: no-repeat;
+	height:34px;
+	width: 34px;
+	top:35%;
+	right:5%;
+}
+.frame {
+	display:block;
+	position:absolute;
+	width:30px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	background-image: url(photos/frame_b.png);
+	background-repeat: no-repeat;
+	border:1px solid rgb(44,113,184);
+	top:5%;
+	left:85%;
+}
+.like {
+	display:block;
+	position:absolute;
+	width:30px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	background-image: url(photos/like_b.png);
+	background-repeat: no-repeat;
+	border:1px solid rgb(44,113,184);
+	top:25%;
+	left:85%;
+
 }
