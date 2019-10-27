@@ -481,7 +481,7 @@ body {
 /*sort box on the left*/
 label:before {
 	content:"";
-	display:block;
+	display:inline-block;
 	width:10px;
 	height: 10px;
 	border: 1px solid white;

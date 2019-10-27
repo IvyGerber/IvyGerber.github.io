@@ -8,3 +8,10 @@ for (let i = 0; i < addToCartButtons.length; i++) {
 		productsCountEl.textContent=prevProductsCount+1;
 	})
 }
+let productLikeEl=document.getElementsByClassName("like");
+console.log(productLikeEl)
+for (let i = 0; i < productLikeEl.length; i++) {
+	productLikeEl[i].addEventListener("click",function myFunction(x) {
+  x.classList.toggle("like");
+})
+}
