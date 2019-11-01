@@ -374,82 +374,49 @@ body {
 	cursor: pointer; 
 }
 .add {
-	display:block;
-	position:relative;
 	height:50px;
 	line-height: 50px;
+	background:rgba(255, 255, 255, 0.25) url(photos/basket_w.png) no-repeat;
+	background-position: 87% 50%;
 	vertical-align: middle;
 	text-align: center;
 	font-weight: bold;
 	border:1px solid white;
-	background-color:rgba(255, 255, 255, 0.25); 
+	background-color:; 
 	cursor:pointer;
 
-}
-.basket2 {
-	display:block;
-	position:absolute;
-	background-image: url(photos/basket_w.png);
-	background-repeat: no-repeat;
-	height:34px;
-	width: 34px;
-	top:35%;
-	right:5%;
 }
 .frame {
 	display:block;
 	position:absolute;
+	background: url(photos/frame_b.png) no-repeat;
+	background-position: center;
 	width:30px;
 	height: 30px;
-	line-height: 30px;
-	padding:5px;
-	vertical-align: middle;
-	text-align: center;
 	border:1px solid rgb(44,113,184);
 	top:5%;
 	left:85%;
 }
-.frame1 {
-	background-image: url(photos/frame_b.png);
-	background-repeat: no-repeat;
-	height: 20px;
-	width: 20px;
-
-}
 .frame:hover{
-	background-color:rgb(44,113,184);
+	background:rgb(44,113,184) url(photos/frame_w.png) no-repeat;
+	background-position: center;
 	cursor: pointer; 
-}
-.frame:hover .frame1 {
-	background-image: url(photos/frame_w.png);
-	background-repeat: no-repeat;
 }
 .like {
 	display:block;
 	position:absolute;
+	background: url(photos/like_b.png) no-repeat;
+	background-position: center;
 	width:30px;
 	height: 30px;
-	padding: 5px;
-	line-height: 30px;
-	vertical-align: middle;
-	text-align: center;
 	border:1px solid rgb(44,113,184);
 	top:25%;
 	left:85%;
 }
-.like1 {
-	background-image: url(photos/like_b.png);
-	background-repeat: no-repeat;
-	height: 20px;
-	width: 20px;
-}
-.like:hover{
-	background-color:rgb(44,113,184); 
+.like:hover ,.liked {
+	background:rgb(44,113,184) url(photos/like_w.png) no-repeat;
+	background-position: center;
 	cursor: pointer; 
-}
-.like:hover .like1 {
-	background-image: url(photos/like_w.png);
-	background-repeat: no-repeat;
 }
 .load {
 	text-align: center;
