@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Web Page</title>
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header class="header">
@@ -66,7 +68,14 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="slides"> Slides
+		<div class="slides">
+			<div class="container">
+				<div class="slider">
+					<div>SLIDER 1</div>
+					<div>SLIDER 2</div>
+					<div>SLIDER 3</div>
+				</div>
+			</div>
 		</div>
 		<div class="main_part">
 			<div class="container">
@@ -347,6 +356,9 @@
 
 	</main>
 	<footer class="footer"><div class="property"></div>Copiright 2017</footer>	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+         <script type="text/javascript" src="slick/slick.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>

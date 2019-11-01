@@ -12,3 +12,10 @@ for (let i = 0; i < likeButton.length; i++) {
   likeButton[i].classList.toggle("liked");
 })
 }
+
+ $('.slider').slick({
+    dots: true,
+    autoplay:true,
+    autoplaySpeed: 2000,
+
+ });
